@@ -35,6 +35,12 @@ export default function Celebration({ giftName }: { giftName: string }) {
         <div className="mt-10 space-y-3">
           <Link
             href="/"
+            onClick={() => {
+              window.gtag?.("event", "click_gift_to_friend", {
+                event_category: "engagement",
+                event_label: "celebration_cta",
+              });
+            }}
             className="block w-full rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 px-4 py-4 text-base font-bold text-white shadow-md shadow-pink-300/50 active:scale-[0.98]"
           >
             나도 친구에게 선물하기
