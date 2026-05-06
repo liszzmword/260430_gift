@@ -68,7 +68,7 @@ export default function HomePage() {
                 value={a}
                 onChange={(e) => setA(e.target.value)}
                 maxLength={MAX_LEN}
-                placeholder="예: 닌텐도 스위치"
+                placeholder="예: 양말"
                 className="mt-1 w-full rounded-xl border border-pink-200 bg-white px-4 py-3 text-base outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-200"
                 required
               />
@@ -87,7 +87,7 @@ export default function HomePage() {
                 value={b}
                 onChange={(e) => setB(e.target.value)}
                 maxLength={MAX_LEN}
-                placeholder="예: 양말"
+                placeholder="예: 샤넬백"
                 className="mt-1 w-full rounded-xl border border-pink-200 bg-white px-4 py-3 text-base outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-200"
                 required
               />
